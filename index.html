@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="om">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galmee Hojii (Registration)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Galmee Hojii (Registration)</h2>
+        <p style="font-style: italic; color: #636e72; margin-bottom: 15px;">Namni obsaan hojjete ni milkaa'aa!</p>
+        
+        <form id="registrationForm">
+            <div class="input-group">
+                <label>Maqaa Guutuu (Full Name)</label>
+                <input type="text" id="fullName" required placeholder="Fkn: Sufiyan Usman">
+            </div>
+
+            <div class="input-group">
+                <label>Umrii (Age)</label>
+                <input type="number" id="age" required placeholder="Fkn: 23">
+            </div>
+
+            <div class="input-group">
+                <label>Bakka Dhalootaa (Birth Place)</label>
+                <input type="text" id="birthPlace" required placeholder="Fkn: Arsi">
+            </div>
+
+            <div class="input-group">
+                <label>Bakka Jireenyaa (Living Place)</label>
+                <input type="text" id="livingPlace" required placeholder="Fkn: Adama">
+            </div>
+
+            <button type="submit" id="submitBtn">Galchi (Save)</button>
+        </form>
+
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="admin.html" class="link-btn">Gara Admin Dashboard Deemi</a>
+        </div>
+    </div>
+
+    <!-- Firebase Script -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>

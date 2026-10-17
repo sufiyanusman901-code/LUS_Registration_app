@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="om">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - LUS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <!-- Header -->
+        <div class="dashboard-header">
+            <h2>Admin Dashboard (Tarree Galmee)</h2>
+            <p>Namni obsaan hojjete ni milkaa'aa!</p>
+        </div>
+
+        <!-- Table Container -->
+        <div class="table-card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <h3>Fayyadamaa Galmaa'an (Registered Users)</h3>
+                <a href="index.html" class="link-btn" style="padding: 6px 12px; font-size: 13px;">Gara Galmee Deebi'i</a>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Maqaa (Name)</th>
+                        <th>Umrii (Age)</th>
+                        <th>Bakka Dhalootaa (Birth Place)</th>
+                        <th>Bakka Jireenyaa (Living Place)</th>
+                        <th>Pending</th>
+                        <th>Approved</th>
+                    </tr>
+                </thead>
+                <tbody id="userTableBody">
+                    <!-- Ragaan Firebase keessaa asitti dynamic-dhaan dhufee guutama -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Firebase Admin Script -->
+    <script type="module" src="admin.js"></script>
+</body>
+</html>
